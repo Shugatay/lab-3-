@@ -1,0 +1,64 @@
+body {
+    font-family: Tahoma;
+    background: #4ccee6;
+    margin: 0;
+    background-image: url(img2.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1550px;
+}
+
+h1 {
+    cursor:help;
+    margin: 50;
+    text-transform: uppercase;
+    color: rgb(15, 43, 164);
+    padding-bottom: 5px;
+    border-bottom: 10px solid rgb(27, 7, 154);
+}
+
+form {
+    margin: 100 auto;
+    background: rgb(44, 134, 243);
+    width: 450px;
+    height: 425px;
+    padding: 20px;
+}
+
+.group {
+    margin: 10px;
+    padding: 10px;
+}
+
+label {
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+input {
+    margin-top: 10px;
+    width: 400px;
+    height: 35px;
+}
+
+input:focus {
+    border: #096879;
+    transform: translateX(30px);
+    width: 370px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: rgb(170, 242, 255);
+}
+
+button:hover {
+    opacity: .50;
+    transform: scale(0.8);
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,67 @@
+    body {
+        font-size: 20px;
+        background-image: url(site2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 1470px 900px;
+        font-weight: bold;
+    }
+    
+    h2 {
+        color: rgb(250, 179, 231);
+        padding-bottom: 5px;
+    }
+    
+    h1 {
+        text-transform: uppercase;
+        color: rgb(180, 0, 132);
+        padding-bottom: 5px;
+        border-bottom: 10px solid rgb(82, 0, 81);
+    }
+    
+    form {
+        margin: 100 auto;
+        background: rgb(244, 148, 246);
+        width: 500px;
+        height: 750px;
+        padding: 15px;
+    }
+    
+    .group {
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    label {
+        padding-left: 15px;
+    }
+    
+    input {
+        margin-top: 5px;
+        width: 200px;
+        height: 20px;
+    }
+    
+    select {
+        height: 20px;
+    }
+    
+    fieldset {
+        height: 70px;
+        font-size: 20px;
+    }
+    
+    button {
+        cursor: pointer;
+        padding: 10px 20px;
+        font-size: 25px;
+        background: rgb(236, 70, 236);
+    }
+    
+    button:hover {
+        opacity: .50;
+        transform: scale(0.8);
+    }
+a {
+    text-decoration: none;
+}
